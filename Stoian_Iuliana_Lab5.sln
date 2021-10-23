@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stoian_Iuliana_Lab5", "Stoian_Iuliana_Lab5.csproj", "{16162935-B3E0-4303-AA62-D4CCBC97703D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotModel", "..\AutoLotModel\AutoLotModel.csproj", "{3DC69344-1A1A-4E7B-893D-5331E977FE2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16162935-B3E0-4303-AA62-D4CCBC97703D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16162935-B3E0-4303-AA62-D4CCBC97703D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16162935-B3E0-4303-AA62-D4CCBC97703D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16162935-B3E0-4303-AA62-D4CCBC97703D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC69344-1A1A-4E7B-893D-5331E977FE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC69344-1A1A-4E7B-893D-5331E977FE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC69344-1A1A-4E7B-893D-5331E977FE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC69344-1A1A-4E7B-893D-5331E977FE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F956990-B8E9-498B-87C8-0AA86E5B8995}
+	EndGlobalSection
+EndGlobal
