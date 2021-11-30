@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 namespace Stoian_Iuliana_Lab5
 {
-    /// <summary>
+       /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
@@ -23,6 +23,17 @@ namespace Stoian_Iuliana_Lab5
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+            System.Windows.Data.CollectionViewSource customerViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("customerViewSource")));
+            // Load data by setting the CollectionViewSource.Source property:
+            // customerViewSource.Source = [generic data source]
+            System.Windows.Data.CollectionViewSource inventoryViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("inventoryViewSource")));
+            // Load data by setting the CollectionViewSource.Source property:
+            // inventoryViewSource.Source = [generic data source]
         }
     }
 }
