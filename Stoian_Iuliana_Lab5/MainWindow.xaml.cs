@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 namespace Stoian_Iuliana_Lab5
 {
-       /// <summary>
+    /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window

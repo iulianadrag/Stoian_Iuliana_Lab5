@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{16162935-B3E0-4303-AA62-D4CCBC97703D}</ProjectGuid>
+    <ProjectGuid>{C06B1DAB-9C29-4665-9AE4-43EF0A4336B6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Stoian_Iuliana_Lab5</RootNamespace>
     <AssemblyName>Stoian_Iuliana_Lab5</AssemblyName>
@@ -50,14 +50,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -85,11 +78,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AutoLotDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AutoLotDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -113,18 +101,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="AutoLotDataSet.xsc">
-      <DependentUpon>AutoLotDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="AutoLotDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AutoLotDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="AutoLotDataSet.xss">
-      <DependentUpon>AutoLotDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="packages.config" />
     <None Include="Properties\DataSources\AutoLotModel.Customer.datasource" />
     <None Include="Properties\DataSources\AutoLotModel.Inventory.datasource" />
     <None Include="Properties\Settings.settings">
@@ -158,7 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AutoLotModel\AutoLotModel.csproj">
-      <Project>{3dc69344-1a1a-4e7b-893d-5331e977fe2e}</Project>
+      <Project>{c3a7b5fe-c273-462d-8037-50bc48a54571}</Project>
       <Name>AutoLotModel</Name>
     </ProjectReference>
   </ItemGroup>

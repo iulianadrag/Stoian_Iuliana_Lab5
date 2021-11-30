@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Stoian_Iuliana_Lab5
+namespace Gramada_Cosmin_Lab5
 {
     /// <summary>
     /// Interaction logic for App.xaml
